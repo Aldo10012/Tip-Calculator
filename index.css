@@ -1,3 +1,10 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, red, yellow);
+}
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -7,6 +14,7 @@ main {
 	margin-left: 2em;
 	border: 5px solid;
 	padding: 20px;
+	border-radius: 25px;
 }
 
 .label, .input, #display {
